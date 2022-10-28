@@ -1,0 +1,33 @@
+.App {
+  text-align: center;
+}
+#profile_img img{
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-top: 40px;
+}
+section{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+button{
+  height: 50px;
+  width: 800px;
+  background: #EAECF0;
+  border: #EAECF0;
+  margin-top: 20px;
+}
+button a{
+  text-decoration: none;
+  color: black;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
