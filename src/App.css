@@ -50,11 +50,17 @@ button a{
   justify-content: center;
   gap: 1em;
 }
+hr{
+  height: 0.5px;
+  width: 80%;
+  background: #EAECF0;
+  margin: 0 2em;
+  margin-top: 30px;
+}
 #foot{
   width: 80%;
   display: flex;
   justify-content: space-between;
-  padding-top: 20px;
   padding-bottom: 10px;
   flex-wrap: wrap;
 }

@@ -30,7 +30,7 @@ class App extends Component {
             <a href='https://github.com/Beauty-dev21'><img src='Icon.png' alt=''></img></a>
           </div>
         </div>
-        <hr></hr>
+        <hr/>
         <div id='foot'>
           <img src='Zuri.Internship_Logo.png' alt=''></img>
           <p>HNG Internship 9 Frontend Task</p>
