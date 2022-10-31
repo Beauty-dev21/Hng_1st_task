@@ -1,14 +1,32 @@
 .App {
+  width: 100%;
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+.share{
+  position: absolute;
+  right: 25%;
+  top: 5%;
+}
+.first {
+  display: none;
+}
+#app1{
+  width: 80%;
+  max-width: 50em;
 }
 #profile_img img{
   height: 100px;
   width: 100px;
   border-radius: 50%;
   object-fit: cover;
-  margin-top: 40px;
+  margin-top: 50px;
 }
 section{
+  width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -17,7 +35,7 @@ section{
 }
 button{
   height: 50px;
-  width: 800px;
+  width: 100%;
   background: #EAECF0;
   border: #EAECF0;
   margin-top: 20px;
@@ -26,8 +44,26 @@ button a{
   text-decoration: none;
   color: black;
 }
+#socials{
+  padding-top: 15px;
+  display: flex;
+  justify-content: center;
+  gap: 1em;
+}
+#foot{
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  flex-wrap: wrap;
+}
 
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+@media (max-width: 500px) {
+    .share{
+      display: none;
+    }
+    .first{
+      display: block;
+    }
 }
